@@ -5,8 +5,8 @@ set(CMAKE_CXX_STANDARD 14)
 
 #set(ZFP_DIR $ENV{ZFP_DIR})
 #set(ZFP_LIB $ENV{ZFP_LIB})
-set(ZFP_DIR /home/majidrp/Software/zfp-0.5.5)
-set(ZFP_LIB ${ZFP_DIR}/build/lib/libzfp.so)
+set(ZFP_DIR )
+set(ZFP_LIB ) # this probably works: ${ZFP_DIR}/build/lib/libzfp.so
 
 if(NOT DEFINED ZFP_DIR)
     message( FATAL_ERROR "ZFP_DIR is not set!" )
